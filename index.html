@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#317EFB"/>
+    <meta name="description" content="Author: AndriiPopov3,
+    Illustrations: https://www.flaticon.com/ru/, Category: web-design frameworks anime resume">
     <title>Résumé</title>
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
     <script src="https://use.fontawesome.com/31628433ed.js"></script>
@@ -14,7 +18,7 @@
                 <div class="row">
                   <div class="three wide center aligned column">
                     <div class="avatar-wrapper">
-                      <object class="avatar" data="./assets/images/avatar.svg" role="img" aria-label="My profile picture"></object>
+                      <object class="avatar" data="/img/1.svg" role="img" aria-label="My profile picture"></object>
                     </div>
                   </div>
                   <div class="thirteen wide column">
@@ -54,7 +58,7 @@
                       </div>
                       <div class="sixteen wide column">
                         <h2>Résumé</h2>
-                          <p>&mdash; I do not compete with others, the only competition that challenges me is myself.<strong style="margin-left: 0.0625em;">*</strong> As a fighter, friend and an employee I am known as contemplative, tortured and driven.</p>
+                          <p>&mdash; I do not compete with others, the only competition that challenges me is myself.<strong style="margin-left: 0.0625em;">*</strong> As a fighter, friend and an employee I am known as contemplative, motivated and driven.</p>
                           <p style="opacity: 0.75;"><strong style="margin-right: 0.0625em;">*</strong>whenever I try to find time for JS between punching dudes</p>
                       </div>
                     </div>
@@ -67,32 +71,76 @@
                 </div>  
                 <div class="row">
                   <div class="ten wide column">
+                    <h6>Recent</h6>
                     <ul class="timeline">
+                      <li class="highlighted">
+                        
+                        <p><small>2021</small></p>
+                        <p>Applied for the <strong>BSA</strong> while doing a lot of additional learning in the process.</p>
+                      </li>
+                      <li  class="highlighted">
+                        <p><small>2020</small></p>
+                        <p>The world's gone crazy and drove me crazy too, I've been thinking more and more about <strong>IT</strong> at this point, got some pretty scarce knowledge of those IT things that was gradually getting better.</p> 
+                        <ul>
+                        <li class="details">  
+                        <input type="checkbox" id="other">
+                          <label for="other" class="summary">The list of relevant things includes</label>
+                          <div>
+                            <ul style="font-size: 12px;">
+                              <li class="details"><input type="checkbox" id="C_things">
+                                <label for="C_things" class="summary">C languages</label>
+                                <div>
+                                <ul>
+                                  <li>C</li>
+                                  <li>C++</li>
+                                  <li>C#</li>
+                                </ul>
+                              </div>
+                              </li>
+                              <li>Python</li>
+                              <li>JS</li>
+                              <li>Selenium</li>
+                              <li>Axios</li>
+                              <li>MySQL</li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                        
+                      </li>
+                      
+                      </ul>
+                      <h6>Back then</h6>
+                      <ul class="timeline">
                       <li>
                         <p><small>2018</small></p>
-                        <p>Amongst many fighters of the past was featured in the movie "Ready Player One". Ryu ready always!</p>
+                        <p>Amongst many fighters of the past was featured in the movie "Ready Player One". Ryu ready always! <strong>Awesome</strong> movie too.</p>
                         
                       </li>
                       
                       <li>
                         <p><small>2017</small></p>
-                        <p>United with unknown until then to me Power Rangers to defea resurrected M.Bison.Damn good fighters they are, even not knowing karate ways!</p>
+                        <p>United with unknown until then to me <strong>Power Rangers</strong> to defeat resurrected M.Bison. Damn good fighters they are, even not knowing <a href="https://en.wikipedia.org/wiki/Karate">karate</a> ways!</p>
                       </li>
                       <li>
                         <p><small>2016</small></p>
-                        <p>In "Street Fighter V" once and for all erased M.Bison from earth and tamed my inner Evil Ryu. Also spent some time on a side-project, mini-series "Street Fighter: Resurrection".</p>
+                        <p>In "Street Fighter <a href="https://en.wikipedia.org/wiki/V_for_Vendetta_(film)">V</a>" once and for all erased M.Bison from earth and tamed my inner <strong>Evil Ryu</strong>. Also spent some time on a side-project, mini-series "Street Fighter: Resurrection".</p>
                       </li>
                       <li>
                         <p><small>2014</small></p>
-                        <p>Filmed in a martial arts tutorial "Street Fighter: Assassin's Fist", revealing to audience forgotten art of Ansatsuken.</p>
+                        <p>Filmed in a martial arts tutorial "Street Fighter: Assassin's Fist", revealing to audience forgotten art of <strong>Ansatsuken</strong>.</p>
                       </li>
                       <li>
                         <p><small>2012 </small></p>
-                        <p>The gods of intenet concluded me in the animated movie "Wreck-It Ralph", but rewarded me with a good drink for it!</p>
+                        <p>The gods of <a href="https://www.youtube.com/watch?v=g4rlGog0XRc"><strike>HEAVY METAL</strike></a> internet concluded me in the animated movie "Wreck-It Ralph", but rewarded me with a good drink for it! &#127866;</p>
                       </li>
                       <li>
                         <p><small>2008</small></p>
-                        <p>My evil alter ego sneaked out of control and became a boss in "Street Fighter IV".</p>
+                        <p>My evil alter ego &#128162; sneaked out of control and became a boss in "Street Fighter IV".</p>
+                      </li>
+                      <li>
+                        <p><small>2005</small></p>
+                        <p>Sensei, why are you so <a href="https://youtu.be/pKO9UjSeLew?t=199">smart</a>?</p>
                       </li>
                     </ul>
                   </div>
@@ -104,48 +152,52 @@
                     <section>
                       <h3>Skills</h3>
                       <p class="tags small">
-                        <ul>
+                        <ol class="inverted" style="font-size: 12px;">
                           <li>KARATE</li>
                           <li>ENERGY</li>
                           <li>ATTACK</li>
                           <li>SHORYUKEN</li>
                           <li>BAREFOOT</li>
-                          <li>PROFESSIONALLY ANALYZING ANIME
+                          <li>PROFESSIONALLY ANALYZING <strong>ANIME</strong>
                             <ul>
                               <li>RATING THINGS FROM 1 TO I'D PUNCH</li>
                               <li>RANKING USELESS THINGS</li>
                             </ul>
                           </li>
                           <li>PLAYING <a href="https://store.steampowered.com/app/594650/Hunt_Showdown/">VIDEOGAMES</a></li>
-                        </ul>
+                          <li>SPOTTING TEXT MISTAKES</li>
+                        </ol>
                     </section>
                     <section>
                       <h3>Character</h3>
                       <p class="tags small">NOBLE DIRECT BOLD CONFIDENT DARING SCHIZOPHRENIC DRAMATIC PERSUASIVE IMMEDIATE WISE <a href="https://www.personality-database.com/profile/91999/ryu-hoshi-street-fighter-1994-mbti-personality-type" rel="external"> WAIT DOES ANYONE ACTUALLY HAVE ANY IDEA WHO I AM</a> <span style="font-size:8px;">sounds like an ENTP to me anyway</span></p>
                     </section>
                     <section>
-                      <h3>Likes&#x1f603;</h3>
+                      <h3>Likes&#128513;</h3>
                       <p class="tags small">METAL &#129304; HEAVY METAL &#129304; POWER METAL &#129304; METAL BALLADS &#129304; PROGRESSIVE METAL &#129304; NEOCLASSICAL METAL &#129304; FOLK METAL &#129304; METALCORE &#129304; MELODIC METALCORE &#129304; MELODIC DEATH METAL &#129304; <a href="https://www.youtube.com/watch?v=IEqHmD55Qpw">TECHNICAL DEATH METAL </a></p>
-                        <li class="details">
-                          <input type="checkbox" id="other">
-                          <label for="other" class="summary">AND A WHOLE BUNCH OF OTHER THINGS</label>
-                          <div>
-                            <ul>
-                              <li>PURPLE</li>
-                              <li>LOVECRAFT</li>
-                              <li>TASTY THINGS</li>
-                            </ul>
-                          </div>
-                        </li>
+                      <ul>
+                      <li class="details">
+                        <input type="checkbox" id="more">
+                        <label for="more" class="summary" style="font-size: 12px;">AND A WHOLE BUNCH OF OTHER THINGS</label>
+                        <div>
+                          <ul style="font-size: 12px;">
+                            <li>PURPLE</li>
+                            <li>LOVECRAFT</li>
+                            <li>DARK SOULS</li>
+                            <li>RESPONSIVE DESIGN</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
                       </p>
                     </section>
                     <section>
-                      <h3>Dislikes&#x1f61e;</h3>
-                      <p class="tags small">BLACK METAL POP MUSIC EDM</p>
+                      <h3>Dislikes&#129324;</h3>
+                      <p class="tags small">BLACK METAL POP MUSIC EDM DISORGANIZED PEOPLE</p>
                     </section>
                     <section>
-                      <h3>Wants&#x1f97a;</h3>
-                      <p class="tags small bulleted"><span class="tag">BE FIT</span><span class="tag">LEARN WEB</span><span class="tag">HAVE FUN</span></p>
+                      <h3>Wants&#129312;</h3>
+                      <p class="tags small bulleted"><span class="tag">BE FIT</span><span class="tag">LEARN WEB</span><span class="tag">HAVE FUN</span><span class="tag">TRAVEL</span></p>
                     </section>
                   </div>
                 </div>
