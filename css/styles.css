@@ -1,0 +1,11 @@
+.paragraphInline {
+    display: inline;
+}
+
+.crossedText {
+    text-decoration: line-through;
+}
+
+.listText {
+    font-size: 12px;
+}
